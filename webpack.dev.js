@@ -35,7 +35,7 @@ module.exports = {
                         // creates style nodes from JS strings
                         loader: "style-loader",
                         options: {
-                            sourceMap: true
+                            injectType: 'singletonStyleTag'
                         }
                     },
                     {
